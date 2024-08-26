@@ -37,9 +37,9 @@ export default function Header() {
                         )}
                      
                     </ul>
-                    <Link href={footerCopy["quick-links"][3].url} className="box btn bg-blue text-oxford btn-padding fw-bold"
-                                target={footerCopy["quick-links"][3].target}>
-                        {footerCopy["quick-links"][3].name}
+                    <Link href={footerCopy["quick-links"][2].url} className="box btn bg-blue text-oxford btn-padding fw-bold"
+                                target={footerCopy["quick-links"][2].target}>
+                        {footerCopy["quick-links"][2].name}
                     </Link>
                 </div>
 

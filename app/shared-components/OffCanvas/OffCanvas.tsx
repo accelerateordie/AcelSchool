@@ -107,9 +107,9 @@ export function Offcanvas({
 
                     </ul>
                     <div className="flex-1 justify-start flex mt-5" >
-                        <a href={footerCopy["quick-links"][3].url} target={footerCopy["quick-links"][3].target}
+                        <a href={footerCopy["quick-links"][2].url} target={footerCopy["quick-links"][2].target}
                             className=" box btn bg-blue text-oxford btn-padding fw-bold text-xsmal text-decoration-none text-dark fw-bold w-100 d-block text-center">
-                            {footerCopy["quick-links"][3].name}
+                            {footerCopy["quick-links"][2].name}
                         </a>
                     </div>
                 </div>
