@@ -29,11 +29,6 @@ export const footerCopy =  {
                 "target": "_self"
             },
             {
-                "name": "Community",
-                "url": "/community",
-                "target": "_self"
-            },
-            {
                 "name": "Constact us",
                 "url": "mailto:acelschool@gmail.com?subject=Inquiry from acel.school Contact Us Page",
                 "target": "_self"
