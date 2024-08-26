@@ -10,23 +10,23 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ACEL schools",
   description: "ACEL schools website",
-  metadataBase: new URL("https://acel.school"),
+  metadataBase: new URL("https://www.acel.school"),
   keywords: ['ACEL', 'ACEL schools','ACELschools'],
-  authors: [{ name: 'ACEL' }, { name: 'ACEL', url: 'https://acel.school' }],
+  authors: [{ name: 'ACEL' }, { name: 'ACEL', url: 'https://www.acel.school' }],
   openGraph: {
     siteName: 'ACEL schools',
     title: "ACEL schools",
     description: "ACEL schools website",
-    url: 'https://acel.school',
+    url: 'https://www.acel.school',
     type: "website",
-    images: 'https://acelschool.org/img/acel-school-thumbnail.png',
+    images: 'https://www.acel.school/img/acel-school-thumbnail.png',
   },
   twitter: {
-    site: "https://acel.school",
+    site: "https://www.acel.school",
     card: "summary_large_image",
     title: "ACEL schools",
     description: "ACEL schools website",
-    images: "https://acel.school/img/acel-school-thumbnail.png"
+    images: "https://www.acel.school/img/acel-school-thumbnail.png"
   },
   icons: {
     icon: [
