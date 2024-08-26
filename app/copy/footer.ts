@@ -30,7 +30,7 @@ export const footerCopy =  {
             },
             {
                 "name": "Constact us",
-                "url": "mailto:acelschool@gmail.com?subject=Inquiry from acel.school Contact Us Page",
+                "url": "mailto:acelschool@gmail.com?subject=Contact Request - Acel School",
                 "target": "_self"
             },
             
