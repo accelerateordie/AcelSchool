@@ -8,15 +8,15 @@ import Footer from "./shared-components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ACEL schools",
-  description: "ACEL schools website",
+  title: "ACEL school",
+  description: "ACEL school website",
   metadataBase: new URL("https://www.acel.school"),
-  keywords: ['ACEL', 'ACEL schools','ACELschools'],
+  keywords: ['ACEL', 'ACEL school','ACELschool'],
   authors: [{ name: 'ACEL' }, { name: 'ACEL', url: 'https://www.acel.school' }],
   openGraph: {
-    siteName: 'ACEL schools',
-    title: "ACEL schools",
-    description: "ACEL schools website",
+    siteName: 'ACEL school',
+    title: "ACEL school",
+    description: "ACEL school website",
     url: 'https://www.acel.school',
     type: "website",
     images: 'https://www.acel.school/img/acel-school-thumbnail.png',
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
   twitter: {
     site: "https://www.acel.school",
     card: "summary_large_image",
-    title: "ACEL schools",
-    description: "ACEL schools website",
+    title: "ACEL school",
+    description: "ACEL school website",
     images: "https://www.acel.school/img/acel-school-thumbnail.png"
   },
   icons: {
