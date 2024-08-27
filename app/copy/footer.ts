@@ -25,7 +25,7 @@ export const footerCopy =  {
             },
             {
                 "name": "Programs",
-            "url": "/programs",
+                "url": "/programs",
                 "target": "_self"
             },
             {
@@ -33,7 +33,16 @@ export const footerCopy =  {
                 "url": "mailto:schoolofacel@gmail.com?subject=Contact Request - Acel School",
                 "target": "_self"
             },
-            
+            {
+                "name": "Accelerate or Die",
+                "url": "https://www.acel.org",
+                "target": "_blank"
+            },
+            {
+                "name": "ACEL Tunnel",
+                "url": "https://www.acel.space",
+                "target": "_blank"
+            }
         ],
         "legal": [
             {
@@ -43,7 +52,7 @@ export const footerCopy =  {
             },
             {
                 "name": "Privacy Policy",
-                "url": "#",
+                "url": "https://www.acel.org/privacy-policy",
                 "target": "_blank"
             }
         ],
