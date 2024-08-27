@@ -43,7 +43,7 @@ export const footerCopy =  {
             },
             {
                 "name": "Privacy Policy",
-                "url": "#",
+                "url": "https://www.acel.org/privacy-policy",
                 "target": "_blank"
             }
         ],
