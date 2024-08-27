@@ -25,7 +25,7 @@ export const footerCopy =  {
             },
             {
                 "name": "Programs",
-            "url": "/programs",
+                "url": "/programs",
                 "target": "_self"
             },
             {
@@ -33,7 +33,16 @@ export const footerCopy =  {
                 "url": "mailto:schoolofacel@gmail.com?subject=Contact Request - Acel School",
                 "target": "_self"
             },
-            
+            {
+                "name": "Accelerate or Die",
+                "url": "https://www.acel.org",
+                "target": "_blank"
+            },
+            {
+                "name": "School of ACEL",
+                "url": "https://www.acel.school/",
+                "target": "_blank"
+            }
         ],
         "legal": [
             {
