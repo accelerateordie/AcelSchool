@@ -37,11 +37,6 @@ export const footerCopy =  {
                 "name": "Accelerate or Die",
                 "url": "https://www.acel.org",
                 "target": "_blank"
-            },
-            {
-                "name": "School of ACEL",
-                "url": "https://www.acel.school/",
-                "target": "_blank"
             }
         ],
         "legal": [
