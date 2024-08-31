@@ -177,9 +177,9 @@
   text-align: justify !important;
 }
 
-.font-goodtimes {
-  font-family: 'GoodTimes' !important;
-}
+// .font-goodtimes {
+//   font-family: 'GoodTimes' !important;
+// }
 
 .text-light {
   color: #fff !important;
@@ -351,20 +351,20 @@
 }
 
 
-@media (min-width: 576px) {
-
-}
+@media (min-width: 576px) {}
 
 @media (max-width: 768px) {
-  .text-xxlarge{
+  .text-xxlarge {
     font-size: 30pt !important;
   }
-    .text-xlarge{
+
+  .text-xlarge {
     font-size: 30pt !important;
-    }
-        .text-medium-mob{
+  }
+
+  .text-medium-mob {
     font-size: 15pt !important;
-        }
+  }
 }
 
 @media (min-width: 992px) {
@@ -498,12 +498,12 @@
 
 body {
   background: #000F25 !important;
-  font-family: 'Helvetica Neue', sans-serif !important;
+  //font-family: 'Helvetica Neue', sans-serif !important;
   color: #fff !important;
 }
 
 .navbar-brand {
-  font-family: 'GoodTimes', sans-serif !important;
+  //font-family: 'GoodTimes', sans-serif !important;
 }
 
 #navbar {
@@ -1712,30 +1712,34 @@ body.mobile {
 /*
 ====== home page
 */
-#hero{
+#hero {
   background: url(./../public/img/bg-header.png) no-repeat center top;
-  background-size:cover ;
+  background-size: cover;
   height: auto;
   margin-top: -120px;
   background-position-y: -300px;
 }
-#items-box-discover{
-  .white-border{
-    width:90%;
+
+#items-box-discover {
+  .white-border {
+    width: 90%;
     height: 160px;
   }
 }
-@media (max-width: 1024px){
-  #items-box-discover .white-border{
+
+@media (max-width: 1024px) {
+  #items-box-discover .white-border {
     width: 90% !important;
     height: auto !important;
   }
 }
-@media (max-width:650px){
-  #items-box-discover{
+
+@media (max-width:650px) {
+  #items-box-discover {
     flex-wrap: wrap;
   }
-  .main-img-box{
+
+  .main-img-box {
     width: 100%;
     margin: 0 auto;
     height: 250px;

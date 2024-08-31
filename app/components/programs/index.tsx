@@ -1,17 +1,18 @@
 import Image from "next/image";
 import { programCopy } from "@/app/copy/programs";
+import { GoodTimes } from "@/app/fonts"
 
 export default function Sections() {
     return (
         <div className="container">
-            <h1 className="text-uppercase font-goodtimes text-xlarge text-narrow-height mt-5 pt-5" dangerouslySetInnerHTML={{ __html: programCopy.header.title }}></h1>
+            <h1 className={`text-uppercase text-xlarge text-narrow-height mt-5 pt-5 ${GoodTimes.className}`}  dangerouslySetInnerHTML={{ __html: programCopy.header.title }}></h1>
             <p className="text-thin text-medium mt-4 text-narrow-height">{programCopy.header.description}</p>
             <div className="row mt-5 px-2 px-lg-0">
                 {/* item box */}
                 <div className="col-12 mb-4 white-border d-flex flex-wrap flex-xl-nowrap justify-content-start align-items-start text-center p-lg-5 bl-half bb-half br-half position-relative overflow-hidden  hover-b">
                     <Image src="/img/ai-power.png" width={343} height={343} className="rounded-5 mt-4 mt-lg-0 main-img-box mb-4" alt="" />
                     <div className="d-flex flex-column flex-wrap flex-xl-nowrap justify-content-end align-items-start px-lg-4 w-100">
-                        <h2 className="font-goodtimes text-narrow-height text-start text-uppercase mt-3 mt-lg-0"
+                        <h2 className={`text-narrow-height text-start text-uppercase mt-3 mt-lg-0 ${GoodTimes.className}`}
                             dangerouslySetInnerHTML={{ __html: programCopy.segment1.title }}>
                         </h2>
                         <p className="text-thin text-medium  text-narrow-height mt-3 text-start"
@@ -40,7 +41,7 @@ export default function Sections() {
                     <Image src="/img/Interdisciplinary-Courses.png" width={343} height={343} className="rounded-5 mt-4 mt-lg-0 main-img-box mb-4" alt="" />
                     <div className="d-flex flex-column flex-wrap flex-xl-nowrap justify-content-end align-items-start px-lg-4 w-100">
 
-                        <h2 className="font-goodtimes text-narrow-height text-start text-uppercase mt-3 mt-lg-0"
+                        <h2 className={`text-narrow-height text-start text-uppercase mt-3 mt-lg-0 ${GoodTimes.className}`}
                             dangerouslySetInnerHTML={{ __html: programCopy.segment2.title }}></h2>
                         <p className="text-thin text-medium text-start text-narrow-height mt-3"
                             dangerouslySetInnerHTML={{ __html: programCopy.segment2.description }}>
@@ -69,7 +70,7 @@ export default function Sections() {
                     <Image src="/img/Individualized-Tutoring.png" width={343} height={343} className="rounded-5 mt-4 mt-lg-0 main-img-box mb-4" alt="" />
                     <div className="d-flex flex-column flex-wrap flex-xl-nowrap justify-content-end align-items-start px-lg-4 w-100">
 
-                        <h2 className="font-goodtimes text-narrow-height text-start text-uppercase mt-3 mt-lg-0" dangerouslySetInnerHTML={{ __html: programCopy.segment3.title }}></h2>
+                        <h2 className={`text-narrow-height text-start text-uppercase mt-3 mt-lg-0 ${GoodTimes.className}`} dangerouslySetInnerHTML={{ __html: programCopy.segment3.title }}></h2>
                         <p className="text-thin text-medium text-start text-narrow-height mt-3"
                             dangerouslySetInnerHTML={{ __html: programCopy.segment3.description }}>
                         </p>

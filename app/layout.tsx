@@ -4,14 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.scss";
 import Header from "./shared-components/header";
 import Footer from "./shared-components/footer";
+import { Helvetica_Neue } from "@/app/fonts"
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ACEL school",
   description: "ACEL school website",
   metadataBase: new URL("https://www.acel.school"),
-  keywords: ['ACEL', 'ACEL school','ACELschool'],
+  keywords: ['ACEL', 'ACEL school', 'ACELschool'],
   authors: [{ name: 'ACEL' }, { name: 'ACEL', url: 'https://www.acel.school' }],
   openGraph: {
     siteName: 'ACEL school',
@@ -51,11 +52,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={Helvetica_Neue.className}>
         <Header />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
